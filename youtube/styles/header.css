@@ -1,0 +1,80 @@
+.header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-section {
+  display: flex;
+  background-color: blue;
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube-logo {
+  height: 20px;
+  
+}
+
+.middle-section {
+  display: flex;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  align-items: center;
+}
+
+.Searchbar {
+  flex: 1;
+  height: 35px;
+  border-radius: 3px;
+  border-width: 0.3px;
+  padding-left: 10px;
+  font-size: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(214, 213, 213);
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.Searchbar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 15px;
+}
+
+.search-button {
+  height: 35px;
+  width: 42px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(214, 213, 213);
+}
+
+.voice-search-button {
+  height: 37px;
+  width: 35px;
+  border: none;
+  border-radius: 20px;
+}
+
+.right-section {
+  display: flex;
+  width: 200px;
+  background-color: blue;
+}
+
+.end-icons {
+  width: 25px;
+}
+
+.my-channel-pic {
+  width: 30px;
+}
+
