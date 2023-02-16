@@ -26,21 +26,45 @@
       bottom: 0;
       top: 50px;
       width: 72px;
+      z-index: 1;
 
     ">
       sidebar 
+      <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      right: 10px;
+      top: 60px;
+    ">
+      absolute
     </div>
     </div>
+
     <div style="
-      background-color: lightblue;
-      width: 200px;
-      height: 200px;
-      position: static;
-      "> Div 1</div>
-    <div style="
-      background-color: lightcoral;
-      width: 200px;
-      height: 200px;
-    "> Div 2</div>
+      position: absolute;
+      background-color: red;
+      color: white;
+      right: 10px;
+      top: 60px;
+    ">
+      absolute
+    </div>
+    </div>
+    <div style="background-color: lightblue;width: 200px;height: 200px;position: static;">
+       Div 1
+    </div>
+    <div style="background-color: lightcoral; width: 200px;height: 200px;position: relative;">
+       Div 2 
+       <div style="
+       position: absolute;
+       background-color: red;
+       color: white;
+       right: 10px;
+       top: 60px;
+       ">
+       absolute
+       </div>
+    </div>
   </body>
 </html>
