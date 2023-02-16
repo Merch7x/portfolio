@@ -1,0 +1,42 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 70px;
+  background-color: green;
+}
+
+.sidebar-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  font-size: 5px;
+}
+
+.home-icon {
+  height: 15px;
+}
+
+.explore-icon {
+  height: 15px;
+}
+
+.subscriptions-icon {
+  height: 15px;
+}
+
+.originals {
+  height: 15px;
+}
+
+.youtube-music {
+  height: 15px;
+}
+
+.library-icon {
+  height: 15px;
+}
