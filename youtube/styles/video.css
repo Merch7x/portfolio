@@ -1,5 +1,6 @@
 .thumbnail {
   width: 100%;
+  cursor: pointer;
 }
 
 .thumbnail-row {
@@ -35,6 +36,7 @@
 .video-stats {
   color: rgb(96, 96, 96);
   font-size: 12px;
+  pointer-events: none;
 }
 
 .video-grid {
